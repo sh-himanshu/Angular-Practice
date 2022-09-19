@@ -6,6 +6,10 @@
   "author": "Himanshu Sharma",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "task-tracker:serve": "yarn workspace task-tracker start",
+    "cook-book:serve": "yarn workspace cook-book start"
+  },
   "workspaces": [
     "apps/*"
   ]

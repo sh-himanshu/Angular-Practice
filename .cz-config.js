@@ -35,7 +35,7 @@ module.exports = {
     },
   ],
 
-  scopes: [{ name: "task-tracker" }, { name: "root" }],
+  scopes: [{ name: "task-tracker" }, { name: "cook-book" }, { name: "root" }],
 
   allowBreakingChanges: ["feat", "fix"],
 };
